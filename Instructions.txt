@@ -1,0 +1,127 @@
+# all numbers in hex format
+# we always start by reset signal
+# this is a commented line
+# You should ignore empty lines
+IN R1            #R1=30
+IN R2            #R2=50
+IN R3            #R3=100
+IN R4            #R4=300
+NOP
+NOP
+NOP
+NOP
+Push R4          #SP=FFD, M[FFE]=300
+JMP R1           # taken
+NOP
+NOP
+INC R1	         # this statement shouldn't be executed
+ 
+#check flag fowarding  
+.ORG 30
+AND R5,R1,R5     #R5=0 , Z = 1
+JZ  R2           #Jump taken, Z = 0
+NOP 
+NOP 
+NOP 
+IN R3             # this statement shouldn't be executed, C-->1
+
+#check on flag updated on jump
+.ORG 50
+
+# Check on flag updated on ALU operations
+NOT R5           #R5=FFFF_FFFF, Z= 0, C--> not change, N=1
+NOP 
+NOP 
+NOP 
+CMP R5, R5       # Z=1, N=0
+IN R1            #R1=65 
+NOP
+NOP 
+NOP
+NOP 
+JZ R1            #jump taken, Z=1
+NOP
+NOP
+NOP
+ADD R1, R2, R3  # should not be executed
+
+.ORG 65
+IN R1            #R1=80
+NOP
+NOP 
+NOP
+NOP
+JZ R1            #jump not taken, Z=0
+NOP
+NOP
+NOP
+JMP R1           #jump taken & TEST prediction=false then unconditional jump
+NOP
+NOP
+NOP
+NOP
+inc r1           #should not be executed 
+
+# Load use
+.ORG 80
+ADDI R1, R1, 40 #R1=C0
+NOP
+NOP
+NOP
+NOP
+CMP R1, R1      # Z=1, N=0
+NOP
+NOP
+NOP
+NOP
+PUSH R1         # SP=FFB, M[FFC]=C0
+nop
+nop
+nop
+nop
+POP R1          # SP=FFD, R1=C0
+nop
+nop
+nop
+nop
+JZ R1           # Taken
+nop
+nop
+nop
+nop
+INC R1 # try hardware interrupt when fetching this
+.ORG C0
+IN  R6           #R6=700, flag no change
+nop
+nop
+nop
+nop
+JMP R6           #jump taken
+nop
+#check on load use
+.ORG 700
+ADD R7, R0, R1             #R7=C0
+POP R6           #R6=300, SP=FFF, try hardware interrupt here
+nop
+nop
+nop
+nop
+Call R6         #SP=FFD, M[FFF, FFE]=next PC
+nop
+nop
+INC R6	         #R6=401, this statement shouldn't be executed till call returns, C--> 0, N-->0,Z-->0
+NOP
+NOP
+.ORG 300
+ADD R6,R3,R6     #R6=400
+ADD R1,R1,R2     #R1=110, C->0,N=0, Z=0
+RET
+NOP
+NOP
+nop
+nop
+
+.ORG 500
+ADD R1, R1, R1   #this shouldnot be executed - try hardware interrupt when this is at fetch
+NOP
+NOP

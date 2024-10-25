@@ -1,0 +1,60 @@
+vsim -gui work.processor
+add wave -position insertpoint  \
+sim:/processor/in_port \
+sim:/processor/out_port \
+sim:/processor/Hardware_rst \
+sim:/processor/INT_In \
+sim:/processor/Passed_rst \
+sim:/processor/clk \
+sim:/processor/PcOut \
+sim:/processor/instruction_out_fetch \
+sim:/processor/Control_register_out_decode \
+sim:/processor/Flag_register_out_execute
+add wave -position insertpoint  \
+sim:/processor/exception_out_port
+add wave -position insertpoint  \
+sim:/processor/Decoding_stage/regs/Data_array
+add wave -position insertpoint  \
+sim:/processor/Memory_stage/The_Data_Mem/ram
+force -freeze sim:/processor/in_port 32'h5 0
+force -freeze sim:/processor/Hardware_rst 1 0
+run
+force -freeze sim:/processor/Hardware_rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/processor/in_port 32'h10 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

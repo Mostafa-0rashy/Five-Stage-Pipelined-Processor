@@ -1,0 +1,29 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY SP IS
+	PORT ( reset : IN  std_logic;
+	  Push: IN std_logic;
+	  Pop: IN std_logic;
+	  sp  : OUT std_logic_vector(11 DOWNTO 0)
+        );
+END SP;
+
+ARCHITECTURE SP_design OF SP IS
+
+signal curSP: STD_LOGIC_VECTOR(11 DOWNTO 0) := "111111111111";
+
+
+begin
+
+
+curSP <= curSp + "000000000001" when rising_edge(Pop) and reset ='0'
+else curSp - "000000000001"  when rising_edge(Push) and reset ='0'
+else "111111111111" when reset ='1'
+else curSP;
+
+SP <= curSP;
+		
+END SP_design;

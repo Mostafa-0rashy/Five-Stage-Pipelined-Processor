@@ -1,0 +1,860 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Ealu
+Z0 w1716107800
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler
+Z7 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/ALU.vhd
+Z8 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/ALU.vhd
+l0
+L6
+VmhSjZT[5F?1@gP:Uf>]:82
+!s100 BBJ?L`C8Ac>k9zzT^X72;2
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1716125002
+!i10b 1
+Z11 !s108 1716125002.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/ALU.vhd|
+Z13 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/ALU.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Aaluarch
+R1
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 mhSjZT[5F?1@gP:Uf>]:82
+l51
+L18
+VTQzeFoj7A;z:ChOT5SE>i3
+!s100 ^OT6H:?PK:M?VkgHMIbS[2
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Edatamem
+Z16 w1716107801
+R3
+Z17 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R4
+R5
+R6
+Z18 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/DataMemory.vhd
+Z19 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/DataMemory.vhd
+l0
+L6
+V1Bgg^?ORGl_<L5a`zKQd`0
+!s100 Ua]d?[bT07g3XQcoaQ3FU3
+R9
+32
+Z20 !s110 1716125003
+!i10b 1
+R11
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/DataMemory.vhd|
+Z22 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/DataMemory.vhd|
+!i113 1
+R14
+R15
+Adatamemdesign
+R3
+R17
+R4
+R5
+DEx4 work 7 datamem 0 22 1Bgg^?ORGl_<L5a`zKQd`0
+l24
+L20
+V?YYfX>eFzoOb9J7AJ6<jo1
+!s100 [50iH7lVZTbonAlSf>4d=2
+R9
+32
+R20
+!i10b 1
+R11
+R21
+R22
+!i113 1
+R14
+R15
+Edecode_stage
+Z23 w1716124811
+R4
+R5
+R6
+Z24 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Decode_Stage.vhd
+Z25 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Decode_Stage.vhd
+l0
+L4
+VNWil9D?Yi3V=U_IB@1c7E0
+!s100 @hmbG_P9bn4270JIi=dFo2
+R9
+32
+R20
+!i10b 1
+Z26 !s108 1716125003.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Decode_Stage.vhd|
+Z28 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Decode_Stage.vhd|
+!i113 1
+R14
+R15
+Adecode_stage_arch
+R4
+R5
+DEx4 work 12 decode_stage 0 22 NWil9D?Yi3V=U_IB@1c7E0
+l132
+L43
+V;3gU:RV@GojO=`j^P=7=j2
+!s100 i9_OP6=MPV`MB9@]MmUMN3
+R9
+32
+R20
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R14
+R15
+Edecoding_unit
+R16
+R4
+R5
+R6
+Z29 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Control_Unit.vhd
+Z30 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Control_Unit.vhd
+l0
+L4
+V7f1JF[dhbZoA_Nf<?LBf62
+!s100 ooW6CkC^Y2J5nZ]RzzM7`2
+R9
+32
+R10
+!i10b 1
+R11
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Control_Unit.vhd|
+Z32 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Control_Unit.vhd|
+!i113 1
+R14
+R15
+Adecoding_unit_arch
+R4
+R5
+DEx4 work 13 decoding_unit 0 22 7f1JF[dhbZoA_Nf<?LBf62
+l62
+L56
+VmEi<]i0hjWD:24g;`XF=B3
+!s100 W9oS]a4iLTHhzFoB7PGgA3
+R9
+32
+R10
+!i10b 1
+R11
+R31
+R32
+!i113 1
+R14
+R15
+Eex_mem
+R16
+R3
+R1
+Z33 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R4
+R5
+R6
+Z34 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/EX_Mem.vhd
+Z35 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/EX_Mem.vhd
+l0
+L5
+V@W2d<A=M9gg17];C?W2k<1
+!s100 4XPBB<1?Gg1UTP9CnR9DV3
+R9
+32
+R20
+!i10b 1
+R26
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/EX_Mem.vhd|
+Z37 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/EX_Mem.vhd|
+!i113 1
+R14
+R15
+Aex_mem_arch
+R3
+R1
+R33
+R4
+R5
+DEx4 work 6 ex_mem 0 22 @W2d<A=M9gg17];C?W2k<1
+l35
+L34
+VM4F8iij7=7j8aD<oLD9`Q2
+!s100 Thb1`NfaQN9?aNK;GkaC91
+R9
+32
+R20
+!i10b 1
+R26
+R36
+R37
+!i113 1
+R14
+R15
+Eexec_stage
+R16
+R1
+R2
+R3
+R4
+R5
+R6
+Z38 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Execute_Stage.vhd
+Z39 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Execute_Stage.vhd
+l0
+L6
+V=lnBTbl843;G@nWV`i?k;2
+!s100 81iSONdYG8VY=UNb_1PSb3
+R9
+32
+R20
+!i10b 1
+R26
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Execute_Stage.vhd|
+Z41 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Execute_Stage.vhd|
+!i113 1
+R14
+R15
+Aexec_stage_arch
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 exec_stage 0 22 =lnBTbl843;G@nWV`i?k;2
+l82
+L24
+VJ;`iYj;i>n2RJ;1<54]2f1
+!s100 =gE6eXn@SbLgd=VMP@STh2
+R9
+32
+R20
+!i10b 1
+R26
+R40
+R41
+!i113 1
+R14
+R15
+Efetchstage
+R16
+R3
+R1
+R33
+R4
+R5
+R6
+Z42 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Fetch_Stage.vhd
+Z43 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Fetch_Stage.vhd
+l0
+L7
+VCC]eamdO<_k:N6;_P2gJm1
+!s100 dP7GIL^l=;=`R5lkO]bNh2
+R9
+32
+R20
+!i10b 1
+R26
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Fetch_Stage.vhd|
+Z45 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Fetch_Stage.vhd|
+!i113 1
+R14
+R15
+Afetchstagedesign
+R3
+R1
+R33
+R4
+R5
+DEx4 work 10 fetchstage 0 22 CC]eamdO<_k:N6;_P2gJm1
+l67
+L26
+V?H^47?:9A7o^2YgRPK7de3
+!s100 M8Q;hM_Mj78UChFYn>De91
+R9
+32
+R20
+!i10b 1
+R26
+R44
+R45
+!i113 1
+R14
+R15
+Ehazard_detection
+R16
+R1
+R2
+R3
+R4
+R5
+R6
+Z46 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Hazard_Detection.vhd
+Z47 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Hazard_Detection.vhd
+l0
+L6
+V5Laz;O:Hlj43:mg`;D?E<2
+!s100 GSF7zjT^7>gc>LBifc1@L2
+R9
+32
+Z48 !s110 1716125004
+!i10b 1
+Z49 !s108 1716125004.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Hazard_Detection.vhd|
+Z51 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Hazard_Detection.vhd|
+!i113 1
+R14
+R15
+Ahazard_detection_arch
+R1
+R2
+R3
+R4
+R5
+DEx4 work 16 hazard_detection 0 22 5Laz;O:Hlj43:mg`;D?E<2
+l24
+L22
+VXm83ZY3>^fBaUf1i8>QRI0
+!s100 `o7;=zS_KVIMbndNYcOkk1
+R9
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 1
+R14
+R15
+Eid_ex
+R16
+R3
+R1
+R33
+R4
+R5
+R6
+Z52 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/ID_EX.vhd
+Z53 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/ID_EX.vhd
+l0
+L6
+V?Bh<[kTPVZ26Qai;6a[9[2
+!s100 AR6>m=?ilgL_>L1?<<d]U1
+R9
+32
+R48
+!i10b 1
+R49
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/ID_EX.vhd|
+Z55 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/ID_EX.vhd|
+!i113 1
+R14
+R15
+Aid_ex_arch
+R3
+R1
+R33
+R4
+R5
+DEx4 work 5 id_ex 0 22 ?Bh<[kTPVZ26Qai;6a[9[2
+l40
+L39
+V]:k:cC:l?me96]UggiC7U1
+!s100 Wa5n9AH0TSQQf=_WPYSF20
+R9
+32
+R48
+!i10b 1
+R49
+R54
+R55
+!i113 1
+R14
+R15
+Eif_id
+R16
+R3
+R1
+R33
+R4
+R5
+R6
+Z56 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/IF_ID.vhd
+Z57 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/IF_ID.vhd
+l0
+L6
+VTLg[z@6e19`b0CXE998WI0
+!s100 Z8zJAfe[]VlDR4j^2@[X_3
+R9
+32
+R48
+!i10b 1
+R49
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/IF_ID.vhd|
+Z59 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/IF_ID.vhd|
+!i113 1
+R14
+R15
+Aif_id_arch
+R3
+R1
+R33
+R4
+R5
+DEx4 work 5 if_id 0 22 TLg[z@6e19`b0CXE998WI0
+l22
+L21
+VMaPGl1ba5EMhiH=MMA5i60
+!s100 DM;SaZWn5^3mA1n^32NFd3
+R9
+32
+R48
+!i10b 1
+R49
+R58
+R59
+!i113 1
+R14
+R15
+Einstructionmem
+R16
+R3
+R17
+R4
+R5
+R6
+Z60 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/InstructionMemory.vhd
+Z61 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/InstructionMemory.vhd
+l0
+L7
+V09l`zSKHQ:iUGF<ehg8JK0
+!s100 fh<3l`z0ZDBzS7`TI14LG1
+R9
+32
+R48
+!i10b 1
+R49
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/InstructionMemory.vhd|
+Z63 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/InstructionMemory.vhd|
+!i113 1
+R14
+R15
+Ainstructionmem_design
+R3
+R17
+R4
+R5
+DEx4 work 14 instructionmem 0 22 09l`zSKHQ:iUGF<ehg8JK0
+l23
+L18
+VJeLO1z08S_Odc42C<V>372
+!s100 G_>jAKBf@0`HM=GR:cBb<0
+R9
+32
+R48
+!i10b 1
+R49
+R62
+R63
+!i113 1
+R14
+R15
+Emem_wb
+R16
+R3
+R4
+R5
+R6
+Z64 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Mem_WB.vhd
+Z65 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Mem_WB.vhd
+l0
+L5
+V0BL?5E`BdTDn@:]0fil>K1
+!s100 fYlK`8QdLKQXXdFl>T=RL2
+R9
+32
+R48
+!i10b 1
+R49
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Mem_WB.vhd|
+Z67 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Mem_WB.vhd|
+!i113 1
+R14
+R15
+Amem_wb_arch
+R3
+R4
+R5
+DEx4 work 6 mem_wb 0 22 0BL?5E`BdTDn@:]0fil>K1
+l29
+L28
+VQ;>:HQz>aD^C5MkzB[LU:2
+!s100 @1mG]Ik9SeDNEz6I<I5ee0
+R9
+32
+R48
+!i10b 1
+R49
+R66
+R67
+!i113 1
+R14
+R15
+Ememorystage
+Z68 w1716121723
+R3
+R4
+R5
+R6
+Z69 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Mem_stage.vhd
+Z70 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Mem_stage.vhd
+l0
+L5
+V`;^3BAR9_dA=4oa8fcVJi0
+!s100 =QCJ1Z2@CFValzVi87TnR3
+R9
+32
+R48
+!i10b 1
+R49
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Mem_stage.vhd|
+Z72 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Mem_stage.vhd|
+!i113 1
+R14
+R15
+Amemorystage_arch
+R3
+R4
+R5
+DEx4 work 11 memorystage 0 22 `;^3BAR9_dA=4oa8fcVJi0
+l93
+L28
+VKddenaQU7C4k?XgU5WAAJ1
+!s100 f[ajA:GPmRR;`O@cPMn^G0
+R9
+32
+R48
+!i10b 1
+R49
+R71
+R72
+!i113 1
+R14
+R15
+Emy_adder
+R16
+R4
+R5
+R6
+Z73 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/my_adder.vhd
+Z74 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/my_adder.vhd
+l0
+L5
+VU`4;^zVM[=Y>8lzRDe7TS1
+!s100 K5jQhMD`GZW[?gY<VI:6I3
+R9
+32
+Z75 !s110 1716125005
+!i10b 1
+Z76 !s108 1716125005.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/my_adder.vhd|
+Z78 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/my_adder.vhd|
+!i113 1
+R14
+R15
+Aa_my_adder
+R4
+R5
+DEx4 work 8 my_adder 0 22 U`4;^zVM[=Y>8lzRDe7TS1
+l12
+L10
+VN;L`E2KG<U:?4O_81o90Q0
+!s100 7J?Il[Z23EOoHTkbFa0L:0
+R9
+32
+R75
+!i10b 1
+R76
+R77
+R78
+!i113 1
+R14
+R15
+Emy_nadder
+R16
+R4
+R5
+R6
+Z79 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/my_nadder.vhd
+Z80 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/my_nadder.vhd
+l0
+L6
+VP^7@S_1EQ]6HkiHCCkAcg2
+!s100 lYh<RlT30K^X]i;S::Q;C0
+R9
+32
+R75
+!i10b 1
+R76
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/my_nadder.vhd|
+Z82 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/my_nadder.vhd|
+!i113 1
+R14
+R15
+Aa_my_nadder
+R4
+R5
+DEx4 work 9 my_nadder 0 22 P^7@S_1EQ]6HkiHCCkAcg2
+l34
+L23
+V3NEW;UeTG2Bkim0E5CQW_3
+!s100 C<Jjm]nkz8hUioG=Tai[F2
+R9
+32
+R75
+!i10b 1
+R76
+R81
+R82
+!i113 1
+R14
+R15
+Epc
+R16
+R3
+R4
+R5
+R6
+Z83 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/PC.vhd
+Z84 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/PC.vhd
+l0
+L5
+V6L=6LLzKRQ3>oN3gVXzVa3
+!s100 ;1VLKaIH1g;aiT:58`io_1
+R9
+32
+R75
+!i10b 1
+R76
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/PC.vhd|
+Z86 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/PC.vhd|
+!i113 1
+R14
+R15
+Apc_design
+R3
+R4
+R5
+DEx4 work 2 pc 0 22 6L=6LLzKRQ3>oN3gVXzVa3
+l27
+L25
+V=OP=?cZeC;Cb]ONhmnP7M3
+!s100 <X=[KDKZNPQ81KTNQT1oK0
+R9
+32
+R75
+!i10b 1
+R76
+R85
+R86
+!i113 1
+R14
+R15
+Eprocessor
+R16
+R3
+R4
+R5
+R6
+Z87 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Processor.vhd
+Z88 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Processor.vhd
+l0
+L5
+V_o4h5diL5BEicl3WC;=>K1
+!s100 eo=?hoF8IIAo2Yg1I@GOE3
+R9
+32
+R75
+!i10b 1
+R76
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Processor.vhd|
+Z90 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Processor.vhd|
+!i113 1
+R14
+R15
+Aprocessor_arch
+R3
+R4
+R5
+DEx4 work 9 processor 0 22 _o4h5diL5BEicl3WC;=>K1
+l316
+L18
+Vnd:VRac0HBhILhnoma2dn3
+!s100 HW78;=68a[CQX]90T[J>F2
+R9
+32
+R75
+!i10b 1
+R76
+R89
+R90
+!i113 1
+R14
+R15
+Eregisters
+Z91 w1716113642
+R3
+R17
+R4
+R5
+R6
+Z92 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Register_File.vhd
+Z93 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Register_File.vhd
+l0
+L6
+Vn=[01PZKEeHlXX0L`j[O70
+!s100 3K8NCmO2oS^FWcIO;HG7R0
+R9
+32
+R75
+!i10b 1
+R76
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Register_File.vhd|
+Z95 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/Register_File.vhd|
+!i113 1
+R14
+R15
+Aregisters_arch
+R3
+R17
+R4
+R5
+DEx4 work 9 registers 0 22 n=[01PZKEeHlXX0L`j[O70
+l29
+L22
+VhofJl5g@zjlJg;NXc[9?80
+!s100 F6nOPHm8E==Q[jTAGWM1l1
+R9
+32
+R75
+!i10b 1
+R76
+R94
+R95
+!i113 1
+R14
+R15
+Esign_extender
+Z96 w1716107802
+R3
+R4
+R5
+R6
+Z97 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/sign_extender.vhd
+Z98 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/sign_extender.vhd
+l0
+L7
+VXC]WNh5H;d0_`=4`YRNl71
+!s100 3ifmmnB68H<^nNRmaoH;N0
+R9
+32
+R75
+!i10b 1
+R76
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/sign_extender.vhd|
+Z100 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/sign_extender.vhd|
+!i113 1
+R14
+R15
+Asign_extender_arch
+R3
+R4
+R5
+DEx4 work 13 sign_extender 0 22 XC]WNh5H;d0_`=4`YRNl71
+l18
+L17
+V:DPmGa]cnEK0h_:;_?Aih2
+!s100 4NnIaMecDAhNFGFHQPKOY3
+R9
+32
+R75
+!i10b 1
+R76
+R99
+R100
+!i113 1
+R14
+R15
+Esp
+R96
+R1
+R2
+R3
+R4
+R5
+R6
+Z101 8C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/SP.vhd
+Z102 FC:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/SP.vhd
+l0
+L6
+VUkQlUE<XL?kS]fcmKQ;<S2
+!s100 OmA@^LPEaElNg8o89?BVE2
+R9
+32
+Z103 !s110 1716125006
+!i10b 1
+R76
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/SP.vhd|
+Z105 !s107 C:/Users/Mariam/Desktop/Team-18/Team-18/Final/arch_project_final/arch3_3/Revenge#2/Assembler/SP.vhd|
+!i113 1
+R14
+R15
+Asp_design
+R1
+R2
+R3
+R4
+R5
+Z106 DEx4 work 2 sp 0 22 UkQlUE<XL?kS]fcmKQ;<S2
+l19
+L14
+Z107 VoCb[^mlRUceKLUMa:1_R21
+Z108 !s100 0[gR`KgDJ7D?ODDI?AMc;3
+R9
+32
+R103
+!i10b 1
+R76
+R104
+R105
+!i113 1
+R14
+R15
